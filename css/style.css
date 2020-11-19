@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box
+}
+
+#wrapper{
+    gap: 2px;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'hd hd hd'
+    'na na na'
+    'ar ar as'
+    'ar ar as'
+    ;
+}
+
+header{
+    grid-area: hd;
+    background-color: firebrick;
+}
+
+nav{
+    grid-area: na;
+    background-color: orangered;
+}
+
+article{
+    grid-area: ar;
+    background-color: tomato;
+}
+
+aside{
+    grid-area: as;
+    background: yellow;
+}
